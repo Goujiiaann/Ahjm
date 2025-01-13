@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.img {
+  margin: 10px 0 0 75px;
+}
+.img img {
+  width: 500px;
+  height: 300px;
+}
+.text-p {
+  position: absolute;
+  margin: -225px 75px 0 650px;
+}
+.read {
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 1250px;
+}
+button {
+  padding: 5px;
+  width: 200px;
+  transition: 0.5s;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+button:hover {
+  background-color: aqua;
+}
+.imge {
+  margin: 10px 950px;
+}
+.imge img {
+  width: 500px;
+  height: 300px;
+}
+.text-A {
+  position: absolute;
+  margin: -225px 75px 0 75px;
+}
+.more {
+  position: absolute;
+  margin: -75px 0 0 670px;
+}

@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 20px;
+}
+.text {
+  margin: 100px 0 0 75px;
+}
+p {
+  margin: 20px 0 20px;
+}
+.header {
+  position: absolute;
+  margin: -200px 75px 0 900px;
+}
+input {
+  margin-top: 10px;
+  width: 550px;
+  height: 50px;
+  border: none;
+
+  background-color: gray;
+}
+::placeholder {
+  color: aqua;
+}
+.sub input {
+  margin-bottom: 10px;
+}
+.massager input {
+  margin-top: 0;
+}
+.submit {
+  margin: 50px 75px 0 400px;
+}
+button {
+  width: 150px;
+  height: 30px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: aquamarine;
+}

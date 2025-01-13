@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-image: url(image/Naruto1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 175px;
+  margin: 10px 75px 0 75px;
+  height: 60px;
+  color: white;
+}
+.header {
+  display: flex;
+  margin: 25px 0 0 75px;
+}
+.image {
+  display: flex;
+  position: absolute;
+  margin-left: 665px;
+}
+.image img {
+  width: 225px;
+  height: 225px;
+  margin-left: 15px;
+}
+.gonow {
+  display: flex;
+  position: relative;
+  margin-top: 70px;
+  margin-left: 75px;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+  height: 30px;
+  transition: 0.5s;
+}
+button a {
+  text-decoration: none;
+}
+.gonow :hover {
+  background-color: aqua;
+}

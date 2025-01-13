@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.index {
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+}
+.home a:hover {
+  text-decoration: underline;
+  color: rgb(4, 213, 255);
+}
+h3 {
+  padding-top: 30px;
+  padding-left: 100px;
+  font-size: 20px;
+}
+.home img {
+  position: absolute;
+  width: 50px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.nav {
+  margin-top: -20px;
+  padding-left: 750px;
+}
+hr {
+  margin: 20px 50px 0 50px;
+  border: 1px solid #000;
+}
